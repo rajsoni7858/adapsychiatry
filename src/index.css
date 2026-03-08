@@ -1,0 +1,99 @@
+@import "tailwindcss";
+@font-face {
+  font-family: "Wulkan Display";
+  src: url("/src/assets/fonts/WulkanDisplay-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+}
+body {
+  font-family: "Work Sans", sans-serif;
+  background-color: #e8e0cf;
+  overflow-x: hidden !important;
+}
+.hero-slider .swiper-pagination-bullet {
+  width: 15px !important;
+  left: 0 !important;
+  height: 15px !important;
+  border: 2px solid #daa520 !important;
+  background: transparent !important;
+  clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
+  opacity: 1 !important;
+}
+
+.hero-slider .swiper-pagination-bullet-active {
+  background: #daa520 !important;
+}
+
+.hero-slider .swiper-pagination {
+  position: absolute !important;
+  left: 80px !important;
+  bottom: 40px !important;
+  width: auto !important;
+  text-align: left !important;
+}
+/* testimonial  */
+.testimoinal .swiper {
+  visibility: visible !important;
+}
+.testimoinal .swiper-pagination-bullet {
+  width: 15px !important;
+  left: 0 !important;
+  height: 15px !important;
+  border: 2px solid #daa520 !important;
+  background: transparent !important;
+  clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
+  opacity: 1 !important;
+}
+
+.testimoinal span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background: #daa520 !important;
+}
+.testimoinal .swiper-pagination {
+  position: absolute !important;
+  left: 0px !important;
+  right: 0px !important;
+  bottom: -44px !important;
+  width: auto !important;
+  text-align: center !important;
+}
+/* testimoinal */
+
+.founder.absolute.inset-0.bg-contain.bg-center.bg-no-repeat.bg-\[length\:100\%_100\%\] {
+  background-size: 100% 100% !important;
+}
+
+.treatmentfoucus img.w-\[220px\].h-\[220px\].object-cover.rounded-full {
+  margin: -5px 10px 3px -5px;
+}
+.row2 img.w-\[220px\].h-\[220px\].object-cover.rounded-full {
+  margin: -25px -23px 0px 10px;
+}
+
+/* Active dot */
+.custom-pagination .swiper-pagination-bullet-active {
+  background: #c18c2c;
+}
+@media only screen and (max-width: 768px) {
+  .swiper .max-w-xl.ml-20.text-white {
+    margin-left: 30px !important;
+  }
+  .relative.max-w-6xl.mx-auto.px-6.f-content
+    .bg-transparent.border-3.border-\[\#DAA520\].rounded-xl.py-12.pl-35.pr-17.-ml-38.relative.z-0 {
+    margin: 0 !important;
+    padding: 20px !important;
+  }
+  .relative.max-w-6xl.mx-auto.px-6.f-content
+    img.rounded-lg.shadow-lg.w-\[509px\] {
+    width: 100%;
+  }
+  .faq
+    button.mt-14.w-\[335px\].h-\[56px\].mx-auto.block.bg-gradient-to-r.from-\[\#CEA341\].via-\[\#E8D16B\].to-\[\#F0DF78\].flex.items-center.justify-center.gap-2.text-black.font-semibold.rounded-full.shadow-md.hover\:opacity-90.transition {
+    width: 200px;
+  }
+  .treatmentfoucus .max-w-\[380px\].md\:ml-auto {
+    order: 1;
+  }
+  .treatmentfoucus img.w-\[220px\].h-\[220px\].object-cover.rounded-full {
+    margin: 0;
+  }
+}
